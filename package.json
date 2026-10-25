@@ -2,13 +2,13 @@
     "name": "phaser-game",
     "version": "1.0.0",
     "description": "",
-    "main": "game.js",
+    "main": "game.ts",
     "type": "module",
     "scripts": {
         "dev": "vite",
         "build": "vite build",
         "format": "prettier --write .",
-        "format:check": "prettier --check \"**/*.{html,css,js}\""
+        "format:check": "prettier --check \"**/*.{html,css,js,ts}\""
     },
     "keywords": [],
     "author": "",
