@@ -1,0 +1,57 @@
+##############################################
+# Alles ignorieren                               # * bedeutet alles
+##############################################
+*
+
+##############################################
+# Verzeichnisse wieder erlauben
+##############################################
+!*/
+
+##############################################
+# Ordner ignorieren
+##############################################
+/node_modules/
+# *.Releases/
+# !*/.Releases/
+# /.aLT/
+# *.aLT/
+# !*/.aLT/
+
+##############################################
+# Verzeichnisse wieder erlauben                  # !*/Unterordner/
+##############################################
+!*/.docs/
+!*/.github/ISSUE_TEMPLATE/
+!*/.github/workflows/
+!*/.vscode/
+!*/public/assets/
+!*/src/**/**
+
+##############################################
+# Ausnahme: diese Dateien NICHT ignorieren
+##############################################
+# Beispiel:
+# - für Dateien in Unterordnern                  # !/Pfad/zur/Datein.txt
+# - für einzelne Dateien                         # !Datein.txt
+##############################################
+!.github/ISSUE_TEMPLATE/bug_report.md
+!.github/ISSUE_TEMPLATE/feature_request.md
+!.github/workflows/deploy.yml
+!.github/workflows/format-check.yml
+!/.vscode/settings.json
+!/public/assets/
+!/src/game.ts
+!/src/style.css
+!index.html
+!.gitattributes
+!.gitignore
+!.prettierignore
+!.prettierrc
+!package-lock.json
+!package.json
+#!README.md
+!tsconfig.json
+!vite.config.js
+
+
