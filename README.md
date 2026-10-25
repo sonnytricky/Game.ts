@@ -1,0 +1,2 @@
+[![Code Format Check](https://github.com/sonnytricky/Game.ts/actions/workflows/format-check.yml/badge.svg)](https://github.com/sonnytricky/Game.ts/actions/workflows/format-check.yml)
+[![Publish](https://github.com/sonnytricky/Game.ts/actions/workflows/deploy.yml/badge.svg)](https://github.com/sonnytricky/Game.ts/actions/workflows/deploy.yml)

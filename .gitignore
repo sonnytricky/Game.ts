@@ -50,7 +50,7 @@
 !.prettierrc
 !package-lock.json
 !package.json
-#!README.md
+!README.md
 !tsconfig.json
 !vite.config.js
 
